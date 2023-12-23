@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="book.css">
+    <title>Movie Ticket Booking Website</title>
+</head>
+
+<body>
+    <div class="book">
+        <div class="left">
+            <img src="img/Jhon Wick.jpg" alt="" id="poster">
+            <div class="play">
+                <i class="bi bi-play-fill" id="play"></i>
+            </div>
+            <div class="cont">
+                <h6>Directed by</h6>
+                <p>Chad Stahelski</p>
+                <h6>Starring</h6>
+                <p> Keanu Reeves
+                    Ian McShane
+                    Laurence Fishburne</p>
+                <h6>Edited by</h6>
+                <p> Ruben</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="head_time">
+                <h1 id="title">John Wick</h1>
+                <div class="time">
+                    <h6><i class="bi bi-clock"></i> 165 minutes</h6>
+                    <button>PG-13</button>
+                </div>
+            </div>
+
+            <div class="date_type">
+                <div class="left_card">
+                    <h6 class="title">Monday 1 January</h6>
+                    <div class="card_month crd">
+                        <li>
+                            <h6>Mon</h6>
+                            <h6 class="date_point active">1</h6>
+                        </li>
+                        <li>
+                            <h6>Tue</h6>
+                            <h6 class="date_point">2</h6>
+                        </li>
+                        <li>
+                            <h6>Wed</h6>
+                            <h6 class="date_point">3</h6>
+                        </li>
+                        <li>
+                            <h6>Thu</h6>
+                            <h6 class="date_point">4</h6>
+                        </li>
+                        <li>
+                            <h6>Fri</h6>
+                            <h6 class="date_point">5</h6>
+                        </li>
+                        <li>
+                            <h6>Sat</h6>
+                            <h6 class="date_point">6</h6>
+                        </li>
+                        <li>
+                            <h6>Sun</h6>
+                            <h6 class="date_point">7</h6>
+                        </li>
+                        <li>
+                            <h6>Mon</h6>
+                            <h6 class="date_point">8</h6>
+                        </li>
+                        <li>
+                            <h6>Tue</h6>
+                            <h6 class="date_point">9</h6>
+                        </li>
+                        <li>
+                            <h6>Wed</h6>
+                            <h6 class="date_point">10</h6>
+                        </li>
+                        <li>
+                            <h6>Thu</h6>
+                            <h6 class="date_point">11</h6>
+                        </li>
+                        <li>
+                            <h6>Fri</h6>
+                            <h6 class="date_point">12</h6>
+                        </li>
+                        <li>
+                            <h6>Sat</h6>
+                            <h6 class="date_point">13</h6>
+                        </li>
+                        <li>
+                            <h6>Sun</h6>
+                            <h6 class="date_point">14</h6>
+                        </li>
+                    </div>
+                </div>
+                <div class="right_card">
+                    <h6 class="title">Show Time</h6>
+                    <div class="card_month crd">
+                        <li>
+                            <h6>2D</h6>
+                            <h6 class="time active">10:00</h6>
+                        </li>
+                        <li>
+                            <h6>2D</h6>
+                            <h6 class="time">12:30</h6>
+                        </li>
+                        <li>
+                            <h6>2D</h6>
+                            <h6 class="time">14:00</h6>
+                        </li>
+                        <li>
+                            <h6>2D</h6>
+                            <h6 class="time">17:00</h6>
+                        </li>
+                        <li>
+                            <h6>2D</h6>
+                            <h6 class="time">18:00</h6>
+                        </li>
+                        <li>
+                            <h6>3D</h6>
+                            <h6 class="time">10:00</h6>
+                        </li>
+                        <li>
+                            <h6>3D</h6>
+                            <h6 class="time">20:00</h6>
+                        </li>
+                        <li>
+                            <h6>4DX</h6>
+                            <h6 class="time">12:00</h6>
+                        </li>
+                        <li>
+                            <h6>4DX</h6>
+                            <h6 class="time">13:30</h6>
+                        </li>
+                        <li>
+                            <h6>4DX</h6>
+                            <h6 class="time">21:00</h6>
+                        </li>
+                        <li>
+                            <h6>4DX</h6>
+                            <h6 class="time">22:30</h6>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="screen" id="screen">
+                Screen
+            </div>
+
+            <!-- chairs  -->
+            <div class="chair" id="chair"></div>
+
+            <!-- Ticket  -->
+
+            <div class="ticket" id="ticket">
+                <div class="tic">
+                    <div class="barcode">
+                        <div class="card">
+                            <h6>ROW J</h6>
+                            <h6>7 September 2023</h6>
+                        </div>
+                        <div class="card">
+                            <h6>Seat 18</h6>
+                            <h6>23:00</h6>
+                        </div>
+
+                        <svg id="barcode"></svg>
+                        <h5>VEGUS CINEMA</h5>
+                    </div>
+                    <div class="tic_details">
+                        <div class="type">4DX</div>
+                        <h5 class="pvr"><span>Vegus</span> Cinema</h5>
+                        <h1>Jawan</h1>
+                        <div class="seat_det">
+                            <div class="seat_cr">
+                                <h6>ROW</h6>
+                                <h6>J</h6>
+                            </div>
+                            <div class="seat_cr">
+                                <h6>SEAT</h6>
+                                <h6>18</h6>
+                            </div>
+                            <div class="seat_cr">
+                                <h6>DATE</h6>
+                                <h6>7 <sub>sep</sub></h6>
+                            </div>
+                            <div class="seat_cr">
+                                <h6>TIME</h6>
+                                <h6>11:30 <sub>pm</sub></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Details  -->
+            <div class="details" id="det">
+                <div class="details_chair">
+                    <li>Avalable</li>
+                    <li>Booked</li>
+                    <li>Selected</li>
+                </div>
+            </div>
+            <button class="book_tic" id="book_ticket">
+                <i class="bi bi-arrow-right-short"></i>
+            </button>
+            <button class="book_tic" id="back_ticket">
+                <i class="bi bi-arrow-left-short"></i>
+            </button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const dates = document.querySelectorAll(".date_point");
+        const times = document.querySelectorAll(".time");
+        const seats = document.querySelectorAll(".seat");
+
+
+        var dateChange = function (manual) {
+            dates.forEach((date) => {
+                date.classList.remove("active");
+            })
+
+            dates[manual].classList.add("active");
+
+        }
+        dates.forEach((date, i) => {
+            date.addEventListener("click", () => {
+                dateChange(i);
+            });
+        });
+
+        var timeChange = function (manual) {
+            times.forEach((time) => {
+                time.classList.remove("active");
+            })
+
+            times[manual].classList.add("active");
+        }
+        times.forEach((time, i) => {
+            time.addEventListener("click", () => {
+                timeChange(i);
+            });
+        });
+
+        var rows = 10; 
+        var columns = 20; 
+
+        var chair = document.getElementById('chair');
+
+        for (var i = 0; i < rows; i++) {
+            var rowDiv = document.createElement('div');
+            rowDiv.className = 'row';
+            var span = document.createElement('span');
+            span.textContent = String.fromCharCode(65 + i); 
+
+            rowDiv.appendChild(span);
+
+            for (var j = 1; j <= columns; j++) {
+                var seat = document.createElement('li');
+                seat.className = 'seat';
+                seat.textContent = j;
+                rowDiv.appendChild(seat);
+            }
+
+            var span2 = document.createElement('span');
+            span2.textContent = String.fromCharCode(65 + i); 
+            rowDiv.appendChild(span2);
+
+            chair.appendChild(rowDiv);
+        }
+     
+        function selectSeat(event) {
+            var selectedSeat = event.target;
+
+            if (selectedSeat.classList.contains('selected')) {
+                selectedSeat.classList.remove('selected');
+            } else {
+                selectedSeat.classList.add('selected');
+            }
+        }
+
+        chair.addEventListener('click', selectSeat);
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.11.5/JsBarcode.all.js"
+        integrity="sha512-wkHtSbhQMx77jh9oKL0AlLBd15fOMoJUowEpAzmSG5q5Pg9oF+XoMLCitFmi7AOhIVhR6T6BsaHJr6ChuXaM/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        JsBarcode("#barcode", "J18800792023"); 
+    </script> -->
+</body>
+
+</html>
